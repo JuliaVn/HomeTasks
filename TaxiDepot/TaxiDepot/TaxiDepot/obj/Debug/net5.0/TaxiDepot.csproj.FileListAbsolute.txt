@@ -1,0 +1,16 @@
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\TaxiDepot.exe
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\TaxiDepot.deps.json
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\TaxiDepot.runtimeconfig.json
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\TaxiDepot.runtimeconfig.dev.json
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\TaxiDepot.dll
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\ref\TaxiDepot.dll
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\bin\Debug\net5.0\TaxiDepot.pdb
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.csproj.AssemblyReference.cache
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.AssemblyInfoInputs.cache
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.AssemblyInfo.cs
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.csproj.CoreCompileInputs.cache
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.dll
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\ref\TaxiDepot.dll
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.pdb
+D:\EPAM_LABA\HomeTasks\TaxiDepot\TaxiDepot\TaxiDepot\obj\Debug\net5.0\TaxiDepot.genruntimeconfig.cache
