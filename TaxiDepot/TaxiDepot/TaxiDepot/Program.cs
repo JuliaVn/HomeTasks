@@ -8,7 +8,15 @@ namespace TaxiDepot
     {
         public static void Main(string[] args)
         {
-            Console.Write("Please enter a number of seats you are needed from the following:  ");
+            Console.WriteLine($"Total cost of vehicles in Taxi Depot: {Initialization.GetTaxiDepot().CostOfAutos()}");
+            var tempList = Initialization.GetTaxiDepot().SortByFuel();
+            Console.WriteLine("\nSorted list by fuel rate:");
+            foreach (var auto in tempList)
+            {
+                Console.Write($"{auto.FuelRate}; ");
+            }
+
+            Console.Write("\n\nPlease enter a number of seats you are needed from the following:  ");
             Parameters.ShowAvailableSeats(Initialization.GetAutoList());
 
             IList<Vehicle> seatsList;
@@ -57,7 +65,7 @@ namespace TaxiDepot
                 payment = Parameters.CountDistance(distance, fare);
             } while (TaxiDepot.MinAvailableDistance > distance || distance > TaxiDepot.MaxAvailableDistance);
 
-            Console.WriteLine($"\nThe approximate cost of the trip will be {payment}$. Have a safe trip!");
+            Console.WriteLine($"\nThe approximate cost of the trip will be {Math.Round(payment, 2)}$. Have a safe trip!");
         }
     }
 }

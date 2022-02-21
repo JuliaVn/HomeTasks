@@ -8,7 +8,7 @@ namespace TaxiDepot
     {
         public const double MaxAvailableDistance = 50.0;
         public const double MinAvailableDistance = 1.0;
-        public IList<Vehicle> AutoList { get; set; }
+        public IList<Vehicle> AutoList { get; set; } = new List<Vehicle>();
 
         public TaxiDepot (IList<Vehicle> autoList)
         {
@@ -29,14 +29,10 @@ namespace TaxiDepot
             return totalCost;       
         }
 
-        public void SortByFuel()
+        public List<Vehicle> SortByFuel()
         {
-            IList<Vehicle> sortedAutoList = AutoList.OrderBy(f => f.FuelRate).ToList();
-            Console.Write("Sorted by fuel: ");
-            for (int i = 0; i < sortedAutoList.Count; i++)
-            {
-                Console.Write($"{sortedAutoList[i].FuelRate}; ");
-            }
+            List<Vehicle> sortedAutoList = AutoList.OrderBy(x => x.FuelRate).ToList();
+            return sortedAutoList;
         }
     }
 }
