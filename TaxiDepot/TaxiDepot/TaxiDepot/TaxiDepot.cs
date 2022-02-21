@@ -1,15 +1,22 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace TaxiDepot
 {
-    class TaxiDepot
+    public class TaxiDepot
     {
-        public List<Vehicle> AutoList { get; }
+        public const double MaxAvailableDistance = 50.0;
+        public const double MinAvailableDistance = 1.0;
+        public IList<Vehicle> AutoList { get; set; }
 
-        public TaxiDepot (List<Vehicle> AutoList)
+        public TaxiDepot (IList<Vehicle> autoList)
         {
-            this.AutoList = AutoList;
+            AutoList = autoList;
+        }
+        public TaxiDepot(Vehicle auto)
+        {
+            AutoList.Add(auto);
         }
 
         public decimal CostOfAutos()
@@ -24,7 +31,12 @@ namespace TaxiDepot
 
         public void SortByFuel()
         {
-            List<Vehicle> sortedAutoList = AutoList.OrderBy(f => f.FuelRate).ToList();
+            IList<Vehicle> sortedAutoList = AutoList.OrderBy(f => f.FuelRate).ToList();
+            Console.Write("Sorted by fuel: ");
+            for (int i = 0; i < sortedAutoList.Count; i++)
+            {
+                Console.Write($"{sortedAutoList[i].FuelRate}; ");
+            }
         }
     }
 }

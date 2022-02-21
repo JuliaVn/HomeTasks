@@ -1,5 +1,4 @@
-﻿
-namespace TaxiDepot
+﻿namespace TaxiDepot
 {
     class SportsCar : Vehicle
     {
