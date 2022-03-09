@@ -1,0 +1,16 @@
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\FileSystem.exe
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\FileSystem.deps.json
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\FileSystem.runtimeconfig.json
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\FileSystem.runtimeconfig.dev.json
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\FileSystem.dll
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\ref\FileSystem.dll
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\bin\Debug\net5.0\FileSystem.pdb
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.csproj.AssemblyReference.cache
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.AssemblyInfoInputs.cache
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.AssemblyInfo.cs
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.csproj.CoreCompileInputs.cache
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.dll
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\ref\FileSystem.dll
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.pdb
+D:\EPAM_LABA\HomeTasks\FileSystem\FileSystem\FileSystem\obj\Debug\net5.0\FileSystem.genruntimeconfig.cache
