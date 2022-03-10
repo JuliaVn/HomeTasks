@@ -4,24 +4,21 @@ namespace FileSystem
 {
     class Program
     {
+        private const string txtExtension = "txt";
+        private const string csvExtension = "csv";
         static void Main(string[] args)
         {
-            Console.WriteLine("Please choose file extension: txt or csv");
+            Console.WriteLine($"Please choose file extension: {txtExtension} or {csvExtension}");
             string fileExtension;
             do
             {
                 Console.Write("\nEnter:  ");
                 fileExtension = Console.ReadLine().ToLower();
-            } while (fileExtension != "txt" && fileExtension != "csv");
-            string path = $@"D:\EPAM_LABA\HomeTasks\FileSystem\file.{fileExtension}";
+            } while (fileExtension != txtExtension && fileExtension != csvExtension);
 
-            var lines = Output.FileOutput(path, fileExtension);
+            var lines = Output.FileOutput(fileExtension);
 
-            string newPath;
-            if (fileExtension == "txt") newPath = $@"D:\EPAM_LABA\HomeTasks\FileSystem\output_{DateTime.Now.ToShortDateString()}.csv";
-            else newPath = $@"D:\EPAM_LABA\HomeTasks\FileSystem\output_{DateTime.Now.ToShortDateString()}.txt";
-
-            Input.FileInput(newPath, lines);
+            Input.FileInput(fileExtension, txtExtension, csvExtension, lines);
         }
     }
 }

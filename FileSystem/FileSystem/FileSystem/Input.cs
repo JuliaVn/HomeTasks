@@ -4,13 +4,23 @@ using System.Collections.Generic;
 
 namespace FileSystem
 {
-    class Input
+    static class Input
     {
-        public static void FileInput(string newPath, IList<string> lines)
+        private static string newPath = $@"D:\EPAM_LABA\HomeTasks\FileSystem\output_{DateTime.Now.ToShortDateString()}.";
+
+        public static string getNewPath(string fileExtension, string txtExtension, string csvExtension)
         {
-            if (!File.Exists(newPath))
+            string path;
+            if (fileExtension == txtExtension) path = newPath + csvExtension;
+            else path = newPath + txtExtension;
+            return path;
+        }
+        public static void FileInput(string fileExtension, string txtExtension, string csvExtension, IList<string> lines)
+        {
+            string path = getNewPath(fileExtension, txtExtension, csvExtension);
+            if (!File.Exists(path))
             {
-                using var fileStream = new FileStream(newPath, FileMode.Create, FileAccess.Write);
+                using var fileStream = new FileStream(path, FileMode.Create, FileAccess.Write);
                 using var streamWriter = new StreamWriter(fileStream);
                 foreach (var line in lines)
                 {

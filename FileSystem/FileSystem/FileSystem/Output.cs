@@ -4,12 +4,14 @@ using System.IO;
 
 namespace FileSystem
 {
-    class Output
+    static class Output
     {
-        public static IList<string> FileOutput(string path, string fileExtension)
+        private static string path = @"D:\EPAM_LABA\HomeTasks\FileSystem\file.";
+        public static IList<string> FileOutput(string fileExtension)
         {
             var lines = new List<string>();
-            using (StreamReader streamReader = File.OpenText(path))
+            string temp = path + fileExtension;
+            using (StreamReader streamReader = File.OpenText(temp))
             {
                 string text;
                 while ((text = streamReader.ReadLine()) != null)
@@ -22,22 +24,9 @@ namespace FileSystem
                     {
                         int firstNumber = Convert.ToInt32(numbers[0]);
                         int secondNumber = Convert.ToInt32(numbers[1]);
-                        int sum = firstNumber + secondNumber;
-                        Console.WriteLine($"\n\nSum of numbers {firstNumber} and {secondNumber} is {sum}.");
-                        int multiplication = firstNumber * secondNumber;
-                        Console.WriteLine($"\nMultiplication of numbers {firstNumber} and {secondNumber} is {multiplication}.");
-                        string division;     
-                        if (secondNumber == 0)
-                        {
-                            division = "divide by zero error";
-                            Console.WriteLine("\nThere is no possibility to divide by 0.");                
-                        }
-                        else
-                        {
-                            division = Convert.ToString(firstNumber / (double)secondNumber);
-                            Console.WriteLine($"\nDivision of numbers {firstNumber} and {secondNumber} is {division}.");
-                        }                       
-                        
+                        int sum = MathOperations.Sum(firstNumber, secondNumber);
+                        int multiplication = MathOperations.Multiplication(firstNumber, secondNumber);
+                        string division = MathOperations.Division(firstNumber, secondNumber);                  
                         lines.Add($"{firstNumber}, {secondNumber}, {sum}, {multiplication}, {division}");
                     }
                 }
