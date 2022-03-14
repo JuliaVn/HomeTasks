@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace Collection
+namespace LINQ
 {
     class Program
     {
         private const string txtExtension = "txt";
         private const string csvExtension = "csv";
-        private const string path = @"D:\EPAM_LABA\HomeTasks\Collection\";
-        private const string newPath = @"D:\EPAM_LABA\HomeTasks\Collection\result.";
+        private const string path = @"D:\EPAM_LABA\HomeTasks\LINQ\";
+        private const string pathResultOdd = @"D:\EPAM_LABA\HomeTasks\LINQ\result_odd_numbers.";
+        private const string pathResultEven = @"D:\EPAM_LABA\HomeTasks\LINQ\result_even_numbers.";
+        private const string pathResultEqual = @"D:\EPAM_LABA\HomeTasks\LINQ\result_equal_numbers.";
         private const string answerYes = "yes";
         private const string answerNo = "no";
 
@@ -22,7 +23,6 @@ namespace Collection
                 fileExtension = Console.ReadLine().ToLower();
             } while (fileExtension != txtExtension && fileExtension != csvExtension);
 
-            var resultList = new List<long>();
             string answer;
             do
             {
@@ -37,10 +37,8 @@ namespace Collection
 
                 string filePath = $"{path}{fileName}.{fileExtension}";
                 var numbersList = Output.FileOutput(fileExtension, filePath);
-                var sum = MathOperations.Sum(numbersList);
-                var multiplication = MathOperations.Multiplication(numbersList);
-                resultList.Add(sum);
-                resultList.Add(multiplication);
+
+                Check.OddEvenCheck(numbersList, pathResultOdd, pathResultEven, pathResultEqual, fileExtension);
 
                 Console.WriteLine("\nDo you want to choose one more file? (Yes/no)");               
                 do
@@ -48,9 +46,7 @@ namespace Collection
                     Console.Write("\nEnter:  ");
                     answer = Console.ReadLine().ToLower();
                 } while (answer != answerYes && answer != answerNo); 
-            } while (answer != answerNo);
-            
-            Input.FileInput(resultList, newPath, fileExtension);
+            } while (answer != answerNo);                       
         }
     }
 }
