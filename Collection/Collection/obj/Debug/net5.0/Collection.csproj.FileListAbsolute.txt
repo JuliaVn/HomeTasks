@@ -1,0 +1,16 @@
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\Collection.exe
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\Collection.deps.json
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\Collection.runtimeconfig.json
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\Collection.runtimeconfig.dev.json
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\Collection.dll
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\ref\Collection.dll
+D:\EPAM_LABA\HomeTasks\Collection\Collection\bin\Debug\net5.0\Collection.pdb
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.csproj.AssemblyReference.cache
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.AssemblyInfoInputs.cache
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.AssemblyInfo.cs
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.csproj.CoreCompileInputs.cache
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.dll
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\ref\Collection.dll
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.pdb
+D:\EPAM_LABA\HomeTasks\Collection\Collection\obj\Debug\net5.0\Collection.genruntimeconfig.cache
