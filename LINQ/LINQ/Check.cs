@@ -6,7 +6,7 @@ namespace LINQ
 {
     static class Check
     {
-        public static void OddEvenCheck(IList<int> numbers, string pathOdd, string pathEven, string pathEqual, string fileExtension) 
+        public static void OddEvenCheck(IList<int> numbers, string path, string fileExtension) 
         {
             int oddCount = 0;
             int evenCount = 0;
@@ -28,7 +28,8 @@ namespace LINQ
                         multiplication *= number;
                     }
                     result.Add(multiplication);
-                    Input.FileInput(result, pathOdd, fileExtension);
+                    string pathOdd = $"{path}result_odd_numbers.{fileExtension}";
+                    Input.FileInput(result, pathOdd);
                 }
                 if (oddCount < evenCount)
                 {
@@ -38,12 +39,14 @@ namespace LINQ
                         sum += number;
                     }
                     result.Add(sum);
-                    Input.FileInput(result, pathEven, fileExtension);
+                    string pathEven = $"{path}result_even_numbers.{fileExtension}";
+                    Input.FileInput(result, pathEven);
                 }
                 if (oddCount == evenCount)
                 {
                     result = numbers.OrderBy(p => p).Select(i => (long)i).ToList();
-                    Input.FileInput(result, pathEqual, fileExtension);
+                    string pathEqual = $"{path}result_equal_numbers.{fileExtension}";
+                    Input.FileInput(result, pathEqual);
                 }
             }
         }

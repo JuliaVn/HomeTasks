@@ -6,17 +6,14 @@ namespace Collection
 {
     static class Input
     {
-        public static void FileInput(IList<long> resultList, string newPath, string fileExtension)
+        public static void FileInput(IList<long> resultList, string path, string fileExtension)
         {
-            string path = newPath + fileExtension;
-            if (!File.Exists(path))
+            string newPath = $"{path}result.{fileExtension}";
+            using var fileStream = new FileStream(newPath, FileMode.OpenOrCreate, FileAccess.Write);
+            using var streamWriter = new StreamWriter(fileStream);
+            foreach (var result in resultList)
             {
-                using var fileStream = new FileStream(path, FileMode.Create, FileAccess.Write);
-                using var streamWriter = new StreamWriter(fileStream);
-                foreach (var result in resultList)
-                {
-                    streamWriter.WriteLine(result);
-                }
+                streamWriter.WriteLine(result);
             }
         }
     }

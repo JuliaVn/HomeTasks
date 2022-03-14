@@ -6,17 +6,13 @@ namespace LINQ
 {
     static class Input
     {
-        public static void FileInput(IList<long> resultList, string newPath, string fileExtension)
+        public static void FileInput(IList<long> resultList, string path)
         {
-            string path = newPath + fileExtension;
-            if (!File.Exists(path))
+            using var fileStream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write);
+            using var streamWriter = new StreamWriter(fileStream);
+            foreach (var result in resultList)
             {
-                using var fileStream = new FileStream(path, FileMode.Create, FileAccess.Write);
-                using var streamWriter = new StreamWriter(fileStream);
-                foreach (var result in resultList)
-                {
-                    streamWriter.WriteLine(result);
-                }
+                streamWriter.WriteLine(result);
             }
         }
     }

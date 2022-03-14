@@ -7,9 +7,6 @@ namespace LINQ
         private const string txtExtension = "txt";
         private const string csvExtension = "csv";
         private const string path = @"D:\EPAM_LABA\HomeTasks\LINQ\";
-        private const string pathResultOdd = @"D:\EPAM_LABA\HomeTasks\LINQ\result_odd_numbers.";
-        private const string pathResultEven = @"D:\EPAM_LABA\HomeTasks\LINQ\result_even_numbers.";
-        private const string pathResultEqual = @"D:\EPAM_LABA\HomeTasks\LINQ\result_equal_numbers.";
         private const string answerYes = "yes";
         private const string answerNo = "no";
 
@@ -38,7 +35,7 @@ namespace LINQ
                 string filePath = $"{path}{fileName}.{fileExtension}";
                 var numbersList = Output.FileOutput(fileExtension, filePath);
 
-                Check.OddEvenCheck(numbersList, pathResultOdd, pathResultEven, pathResultEqual, fileExtension);
+                Check.OddEvenCheck(numbersList, path, fileExtension);
 
                 Console.WriteLine("\nDo you want to choose one more file? (Yes/no)");               
                 do

@@ -8,7 +8,6 @@ namespace Collection
         private const string txtExtension = "txt";
         private const string csvExtension = "csv";
         private const string path = @"D:\EPAM_LABA\HomeTasks\Collection\";
-        private const string newPath = @"D:\EPAM_LABA\HomeTasks\Collection\result.";
         private const string answerYes = "yes";
         private const string answerNo = "no";
 
@@ -49,8 +48,8 @@ namespace Collection
                     answer = Console.ReadLine().ToLower();
                 } while (answer != answerYes && answer != answerNo); 
             } while (answer != answerNo);
-            
-            Input.FileInput(resultList, newPath, fileExtension);
+                       
+            Input.FileInput(resultList, path, fileExtension);
         }
     }
 }
