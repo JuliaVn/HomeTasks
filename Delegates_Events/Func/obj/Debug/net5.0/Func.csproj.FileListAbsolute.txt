@@ -1,0 +1,16 @@
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\Func.exe
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\Func.deps.json
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\Func.runtimeconfig.json
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\Func.runtimeconfig.dev.json
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\Func.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\ref\Func.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\bin\Debug\net5.0\Func.pdb
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.csproj.AssemblyReference.cache
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.AssemblyInfoInputs.cache
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.AssemblyInfo.cs
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.csproj.CoreCompileInputs.cache
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\ref\Func.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.pdb
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Func\obj\Debug\net5.0\Func.genruntimeconfig.cache

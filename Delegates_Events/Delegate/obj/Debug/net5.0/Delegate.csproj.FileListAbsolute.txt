@@ -1,0 +1,16 @@
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\Delegate.exe
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\Delegate.deps.json
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.json
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.dev.json
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\Delegate.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\ref\Delegate.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\bin\Debug\net5.0\Delegate.pdb
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.csproj.AssemblyReference.cache
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfoInputs.cache
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfo.cs
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.csproj.CoreCompileInputs.cache
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\ref\Delegate.dll
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.pdb
+D:\EPAM_LABA\HomeTasks\Delegates_Events\Delegate\obj\Debug\net5.0\Delegate.genruntimeconfig.cache
