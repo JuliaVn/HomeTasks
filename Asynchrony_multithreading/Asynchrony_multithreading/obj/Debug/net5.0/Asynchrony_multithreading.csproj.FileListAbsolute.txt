@@ -1,0 +1,17 @@
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\Asynchrony_multithreading.exe
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\Asynchrony_multithreading.deps.json
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\Asynchrony_multithreading.runtimeconfig.json
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\Asynchrony_multithreading.runtimeconfig.dev.json
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\Asynchrony_multithreading.dll
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\ref\Asynchrony_multithreading.dll
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\Asynchrony_multithreading.pdb
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\bin\Debug\net5.0\EquationSolver.dll
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.csproj.AssemblyReference.cache
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.AssemblyInfoInputs.cache
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.AssemblyInfo.cs
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.csproj.CoreCompileInputs.cache
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.dll
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\ref\Asynchrony_multithreading.dll
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.pdb
+D:\EPAM_LABA\HomeTasks\Asynchrony_multithreading\Asynchrony_multithreading\obj\Debug\net5.0\Asynchrony_multithreading.genruntimeconfig.cache

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Asynchrony_multithreading/1.0.0": {
+        "dependencies": {
+          "RdStudEquationSolver": "1.0.1"
+        },
+        "runtime": {
+          "Asynchrony_multithreading.dll": {}
+        }
+      },
+      "RdStudEquationSolver/1.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/EquationSolver.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Asynchrony_multithreading/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RdStudEquationSolver/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-piYQ0ZEDoOJIybm3/yp1L+yK2JAXz8Fd92cX+JucE5pBQuWQX9jmlL8x0RLP+UvmgEb4+W8XLv+2y/M6uduF0A==",
+      "path": "rdstudequationsolver/1.0.1",
+      "hashPath": "rdstudequationsolver.1.0.1.nupkg.sha512"
+    }
+  }
+}

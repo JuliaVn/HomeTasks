@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "RdStudEquationSolver/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/EquationSolver.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/EquationSolver.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RdStudEquationSolver/1.0.1": {
+      "sha512": "piYQ0ZEDoOJIybm3/yp1L+yK2JAXz8Fd92cX+JucE5pBQuWQX9jmlL8x0RLP+UvmgEb4+W8XLv+2y/M6uduF0A==",
+      "type": "package",
+      "path": "rdstudequationsolver/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/EquationSolver.dll",
+        "rdstudequationsolver.1.0.1.nupkg.sha512",
+        "rdstudequationsolver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "RdStudEquationSolver >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\EPAM_LABA\\HomeTasks\\Asynchrony_multithreading\\Asynchrony_multithreading\\Asynchrony_multithreading.csproj",
+      "projectName": "Asynchrony_multithreading",
+      "projectPath": "D:\\EPAM_LABA\\HomeTasks\\Asynchrony_multithreading\\Asynchrony_multithreading\\Asynchrony_multithreading.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\EPAM_LABA\\HomeTasks\\Asynchrony_multithreading\\Asynchrony_multithreading\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "RdStudEquationSolver": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
