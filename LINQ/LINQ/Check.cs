@@ -8,17 +8,12 @@ namespace LINQ
     {
         public static void OddEvenCheck(IList<int> numbers, string path, string fileExtension) 
         {
-            int oddCount = 0;
-            int evenCount = 0;
+            int evenCount = numbers.Where(number => number % 2 == 0).Count();
+            int oddCount = numbers.Where(number => number % 2 != 0).Count();
             var result = new List<long>();
 
             if (numbers != null && numbers.Count != 0)
             {
-                foreach (var number in numbers)
-                {
-                    if (number % 2 == 0) evenCount++;
-                    else oddCount++;
-                }
                 if (oddCount > evenCount)
                 {
                     long multiplication = 1;
@@ -30,19 +25,13 @@ namespace LINQ
                     result.Add(multiplication);
                     string pathOdd = $"{path}result_odd_numbers.{fileExtension}";
                     Input.FileInput(result, pathOdd);
-                }
-                if (oddCount < evenCount)
+                } else if (oddCount < evenCount)
                 {
-                    int sum = 0;
-                    foreach (var number in numbers)
-                    {
-                        sum += number;
-                    }
+                    int sum = numbers.Sum();
                     result.Add(sum);
                     string pathEven = $"{path}result_even_numbers.{fileExtension}";
                     Input.FileInput(result, pathEven);
-                }
-                if (oddCount == evenCount)
+                } else
                 {
                     result = numbers.OrderBy(p => p).Select(i => (long)i).ToList();
                     string pathEqual = $"{path}result_equal_numbers.{fileExtension}";

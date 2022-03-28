@@ -5,7 +5,6 @@ D:\EPAM_LABA\HomeTasks\LINQ\LINQ\bin\Debug\net5.0\LINQ.runtimeconfig.dev.json
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\bin\Debug\net5.0\LINQ.dll
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\bin\Debug\net5.0\ref\LINQ.dll
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\bin\Debug\net5.0\LINQ.pdb
-D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.csproj.AssemblyReference.cache
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.GeneratedMSBuildEditorConfig.editorconfig
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.AssemblyInfoInputs.cache
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.AssemblyInfo.cs
@@ -14,3 +13,4 @@ D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.dll
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\ref\LINQ.dll
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.pdb
 D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.genruntimeconfig.cache
+D:\EPAM_LABA\HomeTasks\LINQ\LINQ\obj\Debug\net5.0\LINQ.csproj.AssemblyReference.cache

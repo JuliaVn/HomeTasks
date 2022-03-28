@@ -13,6 +13,7 @@ namespace LINQ
             var filesList = new List<string>();
             foreach (FileInfo file in files)
             {
+                if (file.Name.Contains("result")) continue;
                 Console.WriteLine(Path.GetFileNameWithoutExtension(file.Name));
                 filesList.Add(Path.GetFileNameWithoutExtension(file.Name));
             }
