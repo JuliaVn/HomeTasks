@@ -10,15 +10,11 @@ namespace Func
     {
         public static List<User> AgeFilter(List<User> list, string age)
         {
-            var filtered = new List<User>();
-            filtered = list.Where(l => l.Age == int.Parse(age)).ToList();
-            return filtered;
+            return list.Where(l => l.Age == int.Parse(age)).ToList();
         }
         public static List<User> GenderFilter(List<User> list, string gender)
         {
-            var filtered = new List<User>();
-            filtered = list.Where(l => l.Gender == gender).ToList();
-            return filtered;
+            return list.Where(l => l.Gender == gender).ToList();
         }
         public static List<User> Filter(Func<List<User>, string, List<User>> func, List<User> list, string variable)
         {

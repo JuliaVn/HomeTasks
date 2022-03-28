@@ -17,13 +17,12 @@ namespace Delegate
 
             Console.Write("Enter the line:  ");
             string line = Console.ReadLine();
-
-            string result = line;
+           
             foreach(Remaking d in re.GetInvocationList())
             {
-                result = d.Invoke(result);
+                line = d.Invoke(line);
             }
-            Console.WriteLine($"\nResult: {result}");
+            Console.WriteLine($"\nResult: {line}");
         }
     }
 }
